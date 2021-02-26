@@ -81,6 +81,7 @@ body {
     background-color: var(--accent-color);
     width: 200px;
     height: 50px;
+    cursor: pointer;
 } 
 
 .modal-btn:hover,
@@ -142,6 +143,7 @@ body {
     line-height: 1.6em;
     letter-spacing: 0.03em;
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .button-list:hover,
 .button-list:focus {
