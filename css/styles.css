@@ -135,7 +135,36 @@ body {
     letter-spacing: 0.03em;
     color: var(--paragraph-color);
 }
+/* prtfolio main*/
+.button-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6em;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+}
+.button-list:hover,
+.button-list:focus {
+    color: #fff;
+    background-color: var(--accent-color);
+}
 
+.subtitle {
+    font-weight: 700;    
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.projects-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9em;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+/* prtfolio main end*/
 
 /* end main */
 
@@ -161,3 +190,6 @@ body {
     /* color: rgba(255, 255, 255, 0.6); */
 } 
 /* ==========footer end=========== */
+
+
+
