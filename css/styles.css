@@ -21,10 +21,13 @@
 body {
     font-family: var(--main-font);
     color: var(--main-color);
+    font-weight: 700;
 }
 /* === header====*/
+.main-pages-link.link.current {
+    color: var(--accent-color);
+}
 .logo {
-    font-weight: 700;
     height: 31px;
     font-family: var(--secondary-font);
     font-weight: bold;
@@ -63,12 +66,98 @@ body {
 }
 
 
+/* main html */
+.headline {  
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+.modal-btn {             
+    background-color: var(--accent-color);
+    width: 200px;
+    height: 50px;
+} 
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color:#188CE8
+}
+.text-btn {
+    font-size: 16px;
+    line-height: 1.9em;
+    letter-spacing: 0.06em;  
+    height: 30px;
+    color: #fff;  
+}
+
+.title-description {    
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;    
+    text-transform: uppercase;  
+}
+
+.text-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+.work-make {
+    font-size: 36px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+}
+.work-command {
+    font-size: 36px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+}
+
+.description-command .names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;    
+}
+
+.description-command .gig {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
 
 
-
+/* end main */
 
 
 /* ==========footer=========== */
 /* .change-second {
     color: #FFFFFF;
 } */
+
+.location-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    /* color: #FFF; */
+}
+
+.phone-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    /* color: rgba(255, 255, 255, 0.6); */
+} 
+/* ==========footer end=========== */
