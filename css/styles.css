@@ -113,7 +113,6 @@ body {
 }
 
 .text-description {
-    /* 400 */
     font-size: var(--font-size-predominate);
     line-height: 1.7;
     letter-spacing: var(--letter-spacing);
@@ -136,7 +135,6 @@ body {
 }
 
 .description-command .gig {
-    /* 400 */
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: var(--letter-spacing);
@@ -166,7 +164,6 @@ body {
 }
 
 .projects-paragraph {
-    /* 400 */
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: var(--letter-spacing);
@@ -185,19 +182,17 @@ body {
     color: var(--white-color);
 }
 
-.location-link {
-    /* 400 */
+.location-link,
+.phone-link {
     font-size: var(--font-size-predominate);
     line-height: 1.7;
     letter-spacing: var(--letter-spacing);
+}
+.location-link   { 
     color: var(--white-color);
 }
 
 .phone-link {
-   /* 400 */
-    font-size: var(--font-size-predominate);
-    line-height: 1.7;
-    letter-spacing: var(--letter-spacing);
     color: rgba(255, 255, 255, 0.6);
 } 
 /* ==========footer end=========== */
